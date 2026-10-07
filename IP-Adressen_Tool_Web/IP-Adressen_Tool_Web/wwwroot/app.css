@@ -1,0 +1,15 @@
+﻿html, body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#blazor-error-ui {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.6rem 1rem;
+    background: lightyellow;
+}
+
