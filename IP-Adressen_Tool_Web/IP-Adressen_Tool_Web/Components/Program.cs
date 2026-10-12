@@ -1,3 +1,4 @@
+using IP_Adressen_Tool_Web.Components.Pages;
 using IP_Adressen_Tool_Web.Components;
 
 var builder = WebApplication.CreateBuilder(args);

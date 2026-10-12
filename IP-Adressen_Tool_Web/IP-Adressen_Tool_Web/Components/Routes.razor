@@ -1,6 +1,15 @@
-﻿<Router AppAssembly="typeof(Program).Assembly" NotFoundPage="typeof(Pages.FalscheURLAnzeigen_NichtLoeschen)">
+﻿@using Microsoft.AspNetCore.Components.Routing
+@using IP_Adressen_Tool_Web.Components.Pages.Hauptwebseite
+
+<Router AppAssembly="typeof(Program).Assembly"
+        AdditionalAssemblies="new[] { typeof(Hauptseite).Assembly }">
     <Found Context="routeData">
         <RouteView RouteData="routeData" DefaultLayout="typeof(Layout.MainLayout)" />
         <FocusOnNavigate RouteData="routeData" Selector="h1" />
     </Found>
+    <NotFound>
+        <LayoutView Layout="typeof(Layout.MainLayout)">
+            <p>Die angegebene Seite wurde leider nicht gefunden.</p>
+        </LayoutView>
+    </NotFound>
 </Router>

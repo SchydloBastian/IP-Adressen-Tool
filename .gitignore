@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Visual Studio / Visual Studio Code (temporäre Dateien)
 .vs/
 .vscode/
@@ -15,3 +16,28 @@ publish/
 
 # Log-Dateien
 *.log
+=======
+## Visual Studio / .NET
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.rsuser
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+*.log
+TestResults/
+*.nupkg
+.idea/
+.vscode/
+launchSettings.json.bak
+## OS
+Thumbs.db
+.DS_Store
+>>>>>>> Prototyp_html
