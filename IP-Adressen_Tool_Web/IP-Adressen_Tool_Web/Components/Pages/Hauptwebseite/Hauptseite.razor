@@ -6,7 +6,22 @@
 </head>
 <body>
     <h1> IP-Tool</h1>
+
 </body>
+
+
+<!-- Subnetz-Ergebnis (wird nur angezeigt, wenn IP gültig ist) -->
+@if (istGueltig)
+{
+    <div class="subnet-box">
+        <h3>Subnetz-Berechnung</h3>
+        <p><strong>Netzwerkadresse:</strong> @netzwerkAdresse</p>
+        <p><strong>Broadcast-Adresse:</strong> @broadcastAdresse</p>
+        <p><strong>Erster nutzbarer Host:</strong> @ersterHost</p>
+        <p><strong>Letzter nutzbarer Host:</strong> @letzterHost</p>
+        <p><strong>Nutzbare Hosts:</strong> @nutzbareHosts</p>
+    </div>
+}
 
 
 
