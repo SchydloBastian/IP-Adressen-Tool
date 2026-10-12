@@ -26,7 +26,24 @@ public class SubnetCalculator
         string lastHost = "-";
         int usableHosts = 0;
 
-       
+        if (cidr <= 30)
+        {
+            firstHost = UintToIp(network + 1);
+            lastHost = UintToIp(broadcast - 1);
+            usableHosts = (int)(broadcast - network - 1);
+        }
+        else if (cidr == 31)
+        {
+            firstHost = UintToIp(network);
+            lastHost = UintToIp(broadcast);
+            usableHosts = 2;
+        }
+        else if (cidr == 32)
+        {
+            firstHost = networkStr;
+            lastHost = networkStr;
+            usableHosts = 1;
+        }
 
         return (networkStr, broadcastStr, firstHost, lastHost, usableHosts);
     }
