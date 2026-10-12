@@ -26,10 +26,10 @@ Dieses Projekt bietet eine Benutzeroberfläche für Netzwerkberechnungen und die
 
 | Name / Alias | Rolle / Hauptaufgaben |
 |---|---|
-| **Person 1** | Projekt-Setup, Layout & Navigation |
-| **Person 2** | IP-Validierung & Logik |
-| **Person 3** | Subnetz- & Hostberechnungen |
-| **Person 4** | Dokumentation & CSS-Styling |
+| **Bastian** | Projekt-Setup, |
+| **Mahdi** | HTML Hauptwebseite |
+| **Marten** | IP-Validierung & Logik |
+| **Hassan** | Dokumentation/Presentaion & CSS-Styling |
 
 *(Personen und Aufgaben können jederzeit angepasst werden.)*
 
