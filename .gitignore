@@ -1,0 +1,17 @@
+# Visual Studio / Visual Studio Code (temporäre Dateien)
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Build- und Kompilierungs-Ordner
+bin/
+obj/
+
+# Veröffentlichte Ausgaben
+[Dd]ebug/
+[Rr]elease/
+publish/
+
+# Log-Dateien
+*.log
